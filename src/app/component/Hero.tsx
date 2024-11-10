@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 
-
 const Hero = () => {
   return (
     <div>
@@ -31,11 +30,11 @@ const Hero = () => {
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <Image
-     className="object-cover object-center rounded mx-auto w-500"
-     alt="hero"
-     width={300}
-     height={300}
-     src="/pic1.png" 
+        src="/pic1.png" 
+        className="object-cover object-center rounded mx-auto w-500"
+        alt="hero"
+         width={300} height={300}
+     
    />
     </div>
   </div>
